@@ -1,3 +1,8 @@
+# Observação
+Teste concluído com sucesso, o código esta disponível no arquivo [ProductStructure.php](./src/ProductStructure.php), conforme solicitado.
+
+---
+# README Original
 # Teste Promobit
 
 📢 Aviso: Não dê um fork neste repositório. Clone o repositório e suba em seu GitHub, envie o link do seu repositório para [contato@promobit.com.br](mailto:contato@promobit.com.br)
