@@ -23,8 +23,7 @@ class ProductStructure
         $array_old = self::products;
         $final_array = [];
 
-
-        foreach($array_old as $chave => $array)
+        foreach($array_old as $array)
         {
             $key = explode('-', $array);
 
@@ -37,17 +36,14 @@ class ProductStructure
                 else if($key[1] === 'M')
                 {
                     $final_array['preto'][$key[1]] += 1;
-
                 }
                 else if($key[1] === 'G')
                 {
                     $final_array['preto'][$key[1]] += 1;
-
                 }
                 else
                 {
                     $final_array['preto'][$key[1]] += 1;
-
                 }
             }
 
@@ -60,17 +56,14 @@ class ProductStructure
                 else if($key[1] === 'M')
                 {
                     $final_array['branco'][$key[1]] += 1;
-
                 }
                 else if($key[1] === 'G')
                 {
                     $final_array['branco'][$key[1]] += 1;
-
                 }
                 else
                 {
                     $final_array['branco'][$key[1]] += 1;
-
                 }
             }
 
@@ -83,17 +76,14 @@ class ProductStructure
                 else if($key[1] === 'M')
                 {
                     $final_array['vermelho'][$key[1]] += 1;
-
                 }
                 else if($key[1] === 'G')
                 {
                     $final_array['vermelho'][$key[1]] += 1;
-
                 }
                 else
                 {
                     $final_array['vermelho'][$key[1]] += 1;
-
                 }
             }
 
@@ -106,17 +96,14 @@ class ProductStructure
                 else if($key[1] === 'M')
                 {
                     $final_array['azul'][$key[1]] += 1;
-
                 }
                 else if($key[1] === 'G')
                 {
                     $final_array['azul'][$key[1]] += 1;
-
                 }
                 else
                 {
                     $final_array['azul'][$key[1]] += 1;
-
                 }
             }
         }
