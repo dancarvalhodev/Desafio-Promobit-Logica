@@ -1,5 +1,15 @@
 # Observação
-Teste concluído com sucesso, o código esta disponível no arquivo [ProductStructure.php](./src/ProductStructure.php), conforme solicitado.
+Teste concluído com sucesso, o código esta disponível no arquivo [ProductStructure.php](./src/ProductStructure.php), conforme solicitado. Abaixo está a saída do terminal.
+```
+PHPUnit 8.5.21 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+
+Time: 15 ms, Memory: 4.00 MB
+
+OK (1 test, 1 assertion)
+
+```
 
 ---
 # README Original
